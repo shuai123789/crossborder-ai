@@ -50,9 +50,12 @@ function Dashboard() {
   const [health, setHealth] = useState('')
 
   useEffect(() => {
-    axios.get(`${API_BASE}/health`)
+    axios.get(`${API_BASE}/health`, { headers: { 'Cache-Control': 'no-cache' } })
       .then(res => setHealth(res.data.status))
-      .catch(() => setHealth('error'))
+      .catch((err) => {
+        console.error('Health check failed:', err)
+        setHealth('error')
+      })
   }, [])
 
   const features = [
