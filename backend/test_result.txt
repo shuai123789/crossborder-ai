@@ -1,0 +1,4 @@
+正在访问: https://www.amazon.com/dp/B0BSHF7WHW
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+UnicodeEncodeError: 'gbk' codec can't encode character '\u2011' in position 125: illegal multibyte sequence

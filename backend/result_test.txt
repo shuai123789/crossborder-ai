@@ -1,0 +1,9 @@
+正在访问: https://www.amazon.com/dp/B0BSHF7WHW
+{
+  "url": "https://www.amazon.com/dp/B0BSHF7WHW",
+  "title": "未知标题",
+  "price": "0",
+  "rating": "0",
+  "reviews": "0",
+  "platform": "amazon"
+}

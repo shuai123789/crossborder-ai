@@ -1,0 +1,27 @@
+[
+  {
+    "id": "a3c1c655",
+    "url": "https://www.amazon.com/dp/B0CHWRXH8B",
+    "title": "Apple AirPods Pro (2nd Generation) Wireless Ear Buds with USB-C Charging, Up to 2X More Active Noise Cancelling Bluetooth Headphones, Transparency Mode, Adaptive, Personalized Spatial Audio, White",
+    "price": "199.00",
+    "rating": "4.7",
+    "reviews": "28642",
+    "platform": "amazon",
+    "created_at": "2026-04-09T17:26:48.517196",
+    "price_history": [
+      {
+        "price": "199.00",
+        "time": "2026-04-09T17:26:48.517196"
+      },
+      {
+        "price": "199.00",
+        "time": "2026-04-09T17:27:12.169405"
+      },
+      {
+        "price": "199.00",
+        "time": "2026-04-09T17:28:34.981625"
+      }
+    ],
+    "updated_at": "2026-04-09T17:28:34.981625"
+  }
+]
