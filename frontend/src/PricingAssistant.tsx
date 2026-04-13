@@ -32,7 +32,7 @@ export default function PricingAssistant() {
     setSaving(true);
     setSaveMsg('');
     try {
-      const res = await axios.post('http://localhost:8000/api/save', {
+      const res = await axios.post('https://crossborder-ai.onrender.com/api/save', {
         url: url
       });
       if (res.data.success) {
@@ -51,7 +51,7 @@ export default function PricingAssistant() {
     if (!url) return;
     setLoading(true);
     try {
-      const res = await axios.post('http://localhost:8000/api/pricing', {
+      const res = await axios.post('https://crossborder-ai.onrender.com/api/pricing', {
         url: url
       });
       setResult(res.data);

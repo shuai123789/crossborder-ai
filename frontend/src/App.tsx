@@ -6,7 +6,7 @@ import CopywritingGenerator from './CopywritingGenerator'
 import ChatPage from './ChatPage'
 import MultiAgentPage from './MultiAgentPage'
 
-const API_BASE = 'http://localhost:8000'
+const API_BASE = 'https://crossborder-ai.onrender.com'
 
 // ========== 功能卡片组件 ==========
 function FeatureCard({ 

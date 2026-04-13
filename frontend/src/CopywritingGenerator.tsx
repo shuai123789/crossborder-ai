@@ -129,7 +129,7 @@ export default function CopywritingGenerator() {
 
     setLoading(true);
     try {
-      const res = await axios.post('http://localhost:8000/api/copywriting', {
+      const res = await axios.post('https://crossborder-ai.onrender.com/api/copywriting', {
         product_name: productName,
         key_points: filteredKeyPoints,
         keywords: keywords.split(',').map(k => k.trim()).filter(k => k),
