@@ -47,14 +47,9 @@ function FeatureCard({
 
 // ========== Dashboard 首页 ==========
 function Dashboard() {
-  const [message, setMessage] = useState('')
   const [health, setHealth] = useState('')
 
   useEffect(() => {
-    axios.get(`${API_BASE}/`)
-      .then(res => setMessage(res.data.message))
-      .catch(() => setMessage('连接失败'))
-
     axios.get(`${API_BASE}/health`)
       .then(res => setHealth(res.data.status))
       .catch(() => setHealth('error'))
